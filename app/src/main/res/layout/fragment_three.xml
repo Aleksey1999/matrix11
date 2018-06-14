@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="СЛАУ"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/etNum1"
+            android:layout_width="100dp"
+            android:hint="X1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etNum2"
+            android:layout_width="100dp"
+            android:hint="X2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etNum3"
+            android:layout_width="100dp"
+            android:hint="X3"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:id="@+id/etNum10"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:layout_marginTop="70dp">
+
+        <EditText
+            android:id="@+id/etNum4"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="X1"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etNum5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="X2"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etNum6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="X3"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:id="@+id/etNum11"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:layout_marginTop="120dp">
+
+        <EditText
+            android:id="@+id/etNum7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="X1"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etNum8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="X2"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etNum9"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="X3"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:id="@+id/etNum12"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/btnRavno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Решить"
+            android:textSize="8pt"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tvResult14"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25pt"
+        android:layout_marginTop="225dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A1 = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tvResult11"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25pt"
+        android:layout_marginTop="265dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A2 = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tvResult12"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25pt"
+        android:layout_marginTop="305dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A3 = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tvResult13"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25pt"
+        android:layout_marginTop="345dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A1 / A = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/tvResult15"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="265dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A2 / A = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/tvResult16"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="305dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A3 / A = "
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/tvResult17"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="110pt"
+        android:layout_marginTop="345dp"
+        android:gravity="center_horizontal"
+        android:textSize="10pt"
+        android:textColor="#FF0000"/>
+
+
+
+</RelativeLayout>
